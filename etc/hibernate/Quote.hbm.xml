@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping 
+		PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+		"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.rickyg.ta.domain.Quote" table="QUOTES">
+		<id name="id" type="long" column="ID">
+		<!-- 	<generator class="identity"/>-->
+		</id>
+		<property name="symbol" column="SYMBOL" />
+		<property name="name" column="NAME"/>
+		<property name="dateTime" column="DATE_TIME"/>
+		<property name="bid" column="BID" type="double"/>
+		<property name="offer" column="OFFER" type="double"/>
+		<property name="open" column="OPEN" type="double"/>
+		<property name="last" column="LAST" type="double"/>
+		<property name="change" column="CHANGE" type="double"/>
+		<property name="high" column="HIGH" type="double"/>
+		<property name="low" column="LOW" type="double"/>
+		<property name="close" column="CLOSE" type="double"/>
+		<property name="price" column="PRICE" type="double"/>
+		<property name="lwma5" column="LWMA" type="double"/>
+		<property name="sma8" column="SMA" type="double"/>
+		<property name="mailSentFlag" column="MAIL_SENT"/>
+		<property name="tradingSignal" column="TRADING_SIGNAL"/>
+	</class>
+</hibernate-mapping>

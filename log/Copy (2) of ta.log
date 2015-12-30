@@ -1,0 +1,6338 @@
+[2009-06-19 18:12:01,750] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is application.properties
+[2009-06-19 18:12:01,750] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the context classpath (application.properties)
+[2009-06-19 18:12:01,765] [INFO] [main] [com.rickyg.ta.ApplicationStart] - Loaded configuration file: application.properties
+[2009-06-19 18:12:01,765] [INFO] [main] [com.rickyg.ta.ApplicationStart] - Added event listener : class com.rickyg.ta.dde.MyDDEEventListener
+[2009-06-19 18:12:01,796] [INFO] [main] [com.rickyg.ta.ApplicationStart] - Successfully started advice for : GBPUSD
+[2009-06-19 18:12:07,078] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:12 1.64930 1.64961
+[2009-06-19 18:12:07,140] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:12 1.64930 1.64961
+[2009-06-19 18:12:07,140] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:12:07,890] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:12 1.64925 1.64956
+[2009-06-19 18:12:07,890] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:12 1.64925 1.64956
+[2009-06-19 18:12:07,890] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:12:08,093] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - Saving quote to DB... 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:12:08,093] [INFO] [Thread-0] [com.rickyg.ta.dao.impl.QuoteDAO_JDBC_TEMP] - Using JDBC statement : INSERT INTO QUOTES_TEMP(SYMBOL, NAME, DATE_TIME, BID, OFFER, OPEN, LAST, QUOTES_TEMP.CHANGE, HIGH, LOW, CLOSE, PRICE, LWMA, SMA, MAIL_SENT, TRADING_SIGNAL) VALUES ( 'GBPUSD','British Pound vs US Dollar','2009-06-19 18:12:00.0',1.6492,1.6496,1.64925,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,'N','NO SIGNAL')
+[2009-06-19 18:12:08,093] [INFO] [Thread-0] [com.rickyg.ta.dao.impl.QuoteDAO_JDBC_TEMP] - JDBC statement successfuly executed!
+[2009-06-19 18:12:08,093] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - Quote successfully saved
+[2009-06-19 18:12:09,562] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:12 1.64930 1.64961
+[2009-06-19 18:12:09,562] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:12 1.64930 1.64961
+[2009-06-19 18:12:09,562] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:12:09,562] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64925
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:12:09,562] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64925
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:12:12,296] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:12 1.64920 1.64951
+[2009-06-19 18:12:12,296] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:12 1.64920 1.64951
+[2009-06-19 18:12:12,296] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64925
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:12:12,312] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:12:12,312] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:12:12,609] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:12 1.64915 1.64946
+[2009-06-19 18:12:12,609] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:12 1.64915 1.64946
+[2009-06-19 18:12:12,609] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:12:12,609] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6492
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:12:12,609] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6492
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6495
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:12:12,921] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:12 1.64920 1.64951
+[2009-06-19 18:12:12,921] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:12 1.64920 1.64951
+[2009-06-19 18:12:12,921] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6492
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:12:12,921] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64915
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:12:12,921] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64915
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6495
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:12:21,046] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:12 1.64930 1.64961
+[2009-06-19 18:12:21,046] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:12 1.64930 1.64961
+[2009-06-19 18:12:21,046] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64915
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:12:21,046] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6492
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:12:21,046] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6492
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6495
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:12:21,750] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:12 1.64935 1.64966
+[2009-06-19 18:12:21,750] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:12 1.64935 1.64966
+[2009-06-19 18:12:21,750] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6492
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:12:21,750] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:12:21,750] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:12:28,406] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:12 1.64930 1.64961
+[2009-06-19 18:12:28,406] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:12 1.64930 1.64961
+[2009-06-19 18:12:28,406] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:12:28,406] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64935
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:12:28,406] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64935
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:12:29,218] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:12 1.64935 1.64966
+[2009-06-19 18:12:29,218] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:12 1.64935 1.64966
+[2009-06-19 18:12:29,218] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64935
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:12:29,218] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:12:29,218] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:12:29,625] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:12 1.64930 1.64961
+[2009-06-19 18:12:29,625] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:12 1.64930 1.64961
+[2009-06-19 18:12:29,625] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:12:29,625] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64935
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:12:29,625] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64935
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:12:29,921] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:12 1.64935 1.64966
+[2009-06-19 18:12:29,921] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:12 1.64935 1.64966
+[2009-06-19 18:12:29,921] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64935
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:12:29,921] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:12:29,921] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:12:35,265] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:12 1.64930 1.64961
+[2009-06-19 18:12:35,265] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:12 1.64930 1.64961
+[2009-06-19 18:12:35,265] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:12:35,265] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64935
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:12:35,265] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64935
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:12:48,921] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:12 1.64935 1.64966
+[2009-06-19 18:12:48,921] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:12 1.64935 1.64966
+[2009-06-19 18:12:48,921] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64935
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:12:48,921] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:12:48,921] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:12:59,171] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:12 1.64940 1.64971
+[2009-06-19 18:12:59,171] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:12 1.64940 1.64971
+[2009-06-19 18:12:59,171] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:12:59,187] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64935
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:12:59,187] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64935
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:13,546] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:13 1.64960 1.64991
+[2009-06-19 18:13:13,546] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:13 1.64960 1.64991
+[2009-06-19 18:13:13,546] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64935
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:12:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:13,562] [INFO] [Thread-0] [com.rickyg.ta.dao.impl.QuoteDAO_JDBC_TEMP] - Using JDBC statement : UPDATE QUOTES_TEMP SET CLOSE = ? WHERE SYMBOL = ? AND DATE_TIME = ?
+[2009-06-19 18:13:13,562] [INFO] [Thread-0] [com.rickyg.ta.dao.impl.QuoteDAO_JDBC_TEMP] - with values : 1.64925 , GBPUSD , 2009-06-19 18:12:00.0
+[2009-06-19 18:13:13,562] [INFO] [Thread-0] [com.rickyg.ta.dao.impl.QuoteDAO_JDBC_TEMP] - JDBC statement successfuly executed!
+[2009-06-19 18:13:13,562] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - Saving quote to DB... 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:13,562] [INFO] [Thread-0] [com.rickyg.ta.dao.impl.QuoteDAO_JDBC_TEMP] - Using JDBC statement : INSERT INTO QUOTES_TEMP(SYMBOL, NAME, DATE_TIME, BID, OFFER, OPEN, LAST, QUOTES_TEMP.CHANGE, HIGH, LOW, CLOSE, PRICE, LWMA, SMA, MAIL_SENT, TRADING_SIGNAL) VALUES ( 'GBPUSD','British Pound vs US Dollar','2009-06-19 18:13:00.0',1.6496,1.6499,1.6496,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,'N','NO SIGNAL')
+[2009-06-19 18:13:13,562] [INFO] [Thread-0] [com.rickyg.ta.dao.impl.QuoteDAO_JDBC_TEMP] - JDBC statement successfuly executed!
+[2009-06-19 18:13:13,562] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - Quote successfully saved
+[2009-06-19 18:13:13,906] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:13 1.64965 1.64996
+[2009-06-19 18:13:13,906] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:13 1.64965 1.64996
+[2009-06-19 18:13:13,906] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:13,906] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6496
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:13,906] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6496
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:22,796] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:13 1.64960 1.64991
+[2009-06-19 18:13:22,796] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:13 1.64960 1.64991
+[2009-06-19 18:13:22,796] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6496
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:22,796] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64965
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:22,796] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64965
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6496
+  offer: 1.65
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:39,453] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:13 1.64955 1.64986
+[2009-06-19 18:13:39,453] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:13 1.64955 1.64986
+[2009-06-19 18:13:39,453] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64965
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:39,453] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6496
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:39,453] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:39,703] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:13 1.64960 1.64991
+[2009-06-19 18:13:39,703] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:13 1.64960 1.64991
+[2009-06-19 18:13:39,703] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6496
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:39,703] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64955
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:39,703] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64955
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:40,312] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:13 1.64950 1.64981
+[2009-06-19 18:13:40,312] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:13 1.64950 1.64981
+[2009-06-19 18:13:40,312] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64955
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:40,312] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6496
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:40,312] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:41,734] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:13 1.64960 1.64991
+[2009-06-19 18:13:41,734] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:13 1.64960 1.64991
+[2009-06-19 18:13:41,734] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6496
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:41,734] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6495
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:41,734] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6495
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6495
+  offer: 1.6498
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:41,734] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:13 1.64975 1.65005
+[2009-06-19 18:13:41,734] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:13 1.64975 1.65005
+[2009-06-19 18:13:41,734] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6495
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:41,734] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6496
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:41,734] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:45,031] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:13 1.64990 1.65013
+[2009-06-19 18:13:45,031] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:13 1.64990 1.65013
+[2009-06-19 18:13:45,031] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6496
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:45,031] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64975
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:45,031] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64975
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6498
+  offer: 1.65
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:45,031] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:13 1.64978 1.64996
+[2009-06-19 18:13:45,031] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:13 1.64978 1.64996
+[2009-06-19 18:13:45,031] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64975
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:45,031] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6499
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:45,031] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6499
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6499
+  offer: 1.6501
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:45,734] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:13 1.64971 1.64996
+[2009-06-19 18:13:45,734] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:13 1.64971 1.64996
+[2009-06-19 18:13:45,734] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6499
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:45,734] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64978
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:45,734] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64978
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6498
+  offer: 1.65
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:46,156] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:13 1.64960 1.64991
+[2009-06-19 18:13:46,156] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:13 1.64960 1.64991
+[2009-06-19 18:13:46,156] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64978
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:46,156] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64971
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:46,156] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64971
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6497
+  offer: 1.65
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:50,359] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:13 1.64955 1.64986
+[2009-06-19 18:13:50,359] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:13 1.64955 1.64986
+[2009-06-19 18:13:50,359] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64971
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:50,359] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6496
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:50,359] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:51,281] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:13 1.64950 1.64981
+[2009-06-19 18:13:51,281] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:13 1.64950 1.64981
+[2009-06-19 18:13:51,281] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6496
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:51,281] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64955
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:51,281] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64955
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:52,187] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:13 1.64940 1.64971
+[2009-06-19 18:13:52,187] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:13 1.64940 1.64971
+[2009-06-19 18:13:52,187] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64955
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:52,187] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6495
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:52,187] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6495
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6495
+  offer: 1.6498
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:52,906] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:13 1.64935 1.64966
+[2009-06-19 18:13:52,906] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:13 1.64935 1.64966
+[2009-06-19 18:13:52,906] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6495
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:52,906] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6494
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:52,906] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:53,968] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:13 1.64940 1.64971
+[2009-06-19 18:13:53,968] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:13 1.64940 1.64971
+[2009-06-19 18:13:53,968] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6494
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:53,968] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64935
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:53,968] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64935
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:54,640] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:13 1.64950 1.64981
+[2009-06-19 18:13:54,640] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:13 1.64950 1.64981
+[2009-06-19 18:13:54,640] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64935
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:54,640] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6494
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:13:54,640] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:00,000] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:13 1.64940 1.64971
+[2009-06-19 18:14:00,000] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:13 1.64940 1.64971
+[2009-06-19 18:14:00,000] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6494
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:00,015] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6495
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:00,015] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6495
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6495
+  offer: 1.6498
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:00,625] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:13 1.64945 1.64976
+[2009-06-19 18:14:00,625] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:13 1.64945 1.64976
+[2009-06-19 18:14:00,625] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6495
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:00,625] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6494
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:00,625] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:02,046] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:13 1.64950 1.64981
+[2009-06-19 18:14:02,046] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:13 1.64950 1.64981
+[2009-06-19 18:14:02,046] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6494
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:02,046] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64945
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:02,046] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64945
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6498
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:19,671] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:14 1.64940 1.64971
+[2009-06-19 18:14:19,671] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:14 1.64940 1.64971
+[2009-06-19 18:14:19,671] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6496
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64945
+  price: 0.0
+  bid: 1.6496
+  offer: 1.6499
+  dateTime: Fri Jun 19 18:13:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:19,671] [INFO] [Thread-0] [com.rickyg.ta.dao.impl.QuoteDAO_JDBC_TEMP] - Using JDBC statement : UPDATE QUOTES_TEMP SET CLOSE = ? WHERE SYMBOL = ? AND DATE_TIME = ?
+[2009-06-19 18:14:19,671] [INFO] [Thread-0] [com.rickyg.ta.dao.impl.QuoteDAO_JDBC_TEMP] - with values : 1.6496 , GBPUSD , 2009-06-19 18:13:00.0
+[2009-06-19 18:14:19,671] [INFO] [Thread-0] [com.rickyg.ta.dao.impl.QuoteDAO_JDBC_TEMP] - JDBC statement successfuly executed!
+[2009-06-19 18:14:19,671] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - Saving quote to DB... 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:19,671] [INFO] [Thread-0] [com.rickyg.ta.dao.impl.QuoteDAO_JDBC_TEMP] - Using JDBC statement : INSERT INTO QUOTES_TEMP(SYMBOL, NAME, DATE_TIME, BID, OFFER, OPEN, LAST, QUOTES_TEMP.CHANGE, HIGH, LOW, CLOSE, PRICE, LWMA, SMA, MAIL_SENT, TRADING_SIGNAL) VALUES ( 'GBPUSD','British Pound vs US Dollar','2009-06-19 18:14:00.0',1.6494,1.6497,1.6494,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,'N','NO SIGNAL')
+[2009-06-19 18:14:19,671] [INFO] [Thread-0] [com.rickyg.ta.dao.impl.QuoteDAO_JDBC_TEMP] - JDBC statement successfuly executed!
+[2009-06-19 18:14:19,671] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - Quote successfully saved
+[2009-06-19 18:14:20,843] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:14 1.64935 1.64966
+[2009-06-19 18:14:20,843] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:14 1.64935 1.64966
+[2009-06-19 18:14:20,843] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:20,843] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6494
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:20,843] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6494
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:22,156] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:14 1.64940 1.64971
+[2009-06-19 18:14:22,156] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:14 1.64940 1.64971
+[2009-06-19 18:14:22,156] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6494
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:22,156] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64935
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:22,156] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64935
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:25,296] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:14 1.64910 1.64941
+[2009-06-19 18:14:25,296] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:14 1.64910 1.64941
+[2009-06-19 18:14:25,296] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64935
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:25,296] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6494
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:25,296] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:25,562] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:14 1.64905 1.64936
+[2009-06-19 18:14:25,562] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:14 1.64905 1.64936
+[2009-06-19 18:14:25,562] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6494
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:25,562] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6491
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:25,562] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6491
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6491
+  offer: 1.6494
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:30,890] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:14 1.64905 1.64931
+[2009-06-19 18:14:30,890] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:14 1.64905 1.64931
+[2009-06-19 18:14:30,890] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6491
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:30,890] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64905
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:30,890] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64905
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.649
+  offer: 1.6494
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:31,703] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:14 1.64905 1.64926
+[2009-06-19 18:14:31,703] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:14 1.64905 1.64926
+[2009-06-19 18:14:31,703] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64905
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:31,703] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64905
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:31,703] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64905
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.649
+  offer: 1.6493
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:33,937] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:14 1.64901 1.64926
+[2009-06-19 18:14:33,937] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:14 1.64901 1.64926
+[2009-06-19 18:14:33,937] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64905
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:33,937] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64905
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:33,937] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64905
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.649
+  offer: 1.6493
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:34,234] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:14 1.64897 1.64921
+[2009-06-19 18:14:34,234] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:14 1.64897 1.64921
+[2009-06-19 18:14:34,234] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64905
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:34,234] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64901
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:34,234] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64901
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.649
+  offer: 1.6493
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:34,859] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:14 1.64901 1.64931
+[2009-06-19 18:14:34,859] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:14 1.64901 1.64931
+[2009-06-19 18:14:34,859] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64901
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:34,859] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64897
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:34,859] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64897
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.649
+  offer: 1.6492
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:36,625] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:14 1.64905 1.64936
+[2009-06-19 18:14:36,625] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:14 1.64905 1.64936
+[2009-06-19 18:14:36,625] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64897
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:36,625] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64901
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:36,625] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64901
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.649
+  offer: 1.6493
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:39,265] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:14 1.64910 1.64941
+[2009-06-19 18:14:39,265] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:14 1.64910 1.64941
+[2009-06-19 18:14:39,265] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64901
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:39,281] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64905
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:39,281] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64905
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.649
+  offer: 1.6494
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:40,546] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:14 1.64920 1.64951
+[2009-06-19 18:14:40,546] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:14 1.64920 1.64951
+[2009-06-19 18:14:40,546] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64905
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:40,546] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6491
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:40,546] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6491
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6491
+  offer: 1.6494
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:41,546] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:14 1.64925 1.64956
+[2009-06-19 18:14:41,546] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:14 1.64925 1.64956
+[2009-06-19 18:14:41,546] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6491
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:41,546] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6492
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:41,546] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6492
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6495
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:41,859] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:14 1.64920 1.64951
+[2009-06-19 18:14:41,859] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:14 1.64920 1.64951
+[2009-06-19 18:14:41,859] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6492
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:41,859] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64925
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:41,859] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:41,859] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:14 1.64925 1.64956
+[2009-06-19 18:14:41,859] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:14 1.64925 1.64956
+[2009-06-19 18:14:41,859] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64925
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:41,859] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6492
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:41,859] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6492
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6495
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:42,562] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:14 1.64910 1.64941
+[2009-06-19 18:14:42,562] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:14 1.64910 1.64941
+[2009-06-19 18:14:42,562] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6492
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:42,562] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64925
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:42,562] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:44,453] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:14 1.64921 1.64952
+[2009-06-19 18:14:44,453] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:14 1.64921 1.64952
+[2009-06-19 18:14:44,453] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64925
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:44,453] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6491
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:44,453] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6491
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6491
+  offer: 1.6494
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:53,437] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:14 1.64926 1.64957
+[2009-06-19 18:14:53,437] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:14 1.64926 1.64957
+[2009-06-19 18:14:53,437] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6491
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:53,437] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64921
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:53,437] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64921
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6495
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:56,281] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:14 1.64921 1.64952
+[2009-06-19 18:14:56,281] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:14 1.64921 1.64952
+[2009-06-19 18:14:56,281] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64921
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:56,281] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64926
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:56,281] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64926
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:57,140] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:14 1.64930 1.64961
+[2009-06-19 18:14:57,140] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:14 1.64930 1.64961
+[2009-06-19 18:14:57,140] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64926
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:57,140] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64921
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:14:57,140] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64921
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6495
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:00,390] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:14 1.64925 1.64956
+[2009-06-19 18:15:00,390] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:14 1.64925 1.64956
+[2009-06-19 18:15:00,390] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64921
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:00,390] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:00,390] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:04,906] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:15 1.64930 1.64961
+[2009-06-19 18:15:04,906] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:15 1.64930 1.64961
+[2009-06-19 18:15:04,906] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6494
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:14:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:04,906] [INFO] [Thread-0] [com.rickyg.ta.dao.impl.QuoteDAO_JDBC_TEMP] - Using JDBC statement : UPDATE QUOTES_TEMP SET CLOSE = ? WHERE SYMBOL = ? AND DATE_TIME = ?
+[2009-06-19 18:15:04,906] [INFO] [Thread-0] [com.rickyg.ta.dao.impl.QuoteDAO_JDBC_TEMP] - with values : 1.6494 , GBPUSD , 2009-06-19 18:14:00.0
+[2009-06-19 18:15:04,906] [INFO] [Thread-0] [com.rickyg.ta.dao.impl.QuoteDAO_JDBC_TEMP] - JDBC statement successfuly executed!
+[2009-06-19 18:15:04,906] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - Saving quote to DB... 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:04,906] [INFO] [Thread-0] [com.rickyg.ta.dao.impl.QuoteDAO_JDBC_TEMP] - Using JDBC statement : INSERT INTO QUOTES_TEMP(SYMBOL, NAME, DATE_TIME, BID, OFFER, OPEN, LAST, QUOTES_TEMP.CHANGE, HIGH, LOW, CLOSE, PRICE, LWMA, SMA, MAIL_SENT, TRADING_SIGNAL) VALUES ( 'GBPUSD','British Pound vs US Dollar','2009-06-19 18:15:00.0',1.6493,1.6496,1.6493,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,'N','NO SIGNAL')
+[2009-06-19 18:15:04,906] [INFO] [Thread-0] [com.rickyg.ta.dao.impl.QuoteDAO_JDBC_TEMP] - JDBC statement successfuly executed!
+[2009-06-19 18:15:04,906] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - Quote successfully saved
+[2009-06-19 18:15:06,687] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:15 1.64925 1.64956
+[2009-06-19 18:15:06,687] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:15 1.64925 1.64956
+[2009-06-19 18:15:06,687] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:06,687] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:06,687] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:07,812] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:15 1.64930 1.64961
+[2009-06-19 18:15:07,812] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:15 1.64930 1.64961
+[2009-06-19 18:15:07,812] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:07,812] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64925
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:07,812] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:08,406] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:15 1.64925 1.64956
+[2009-06-19 18:15:08,406] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:15 1.64925 1.64956
+[2009-06-19 18:15:08,406] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64925
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:08,406] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:08,406] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:22,015] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:15 1.64930 1.64961
+[2009-06-19 18:15:22,015] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:15 1.64930 1.64961
+[2009-06-19 18:15:22,015] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:22,031] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64925
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:22,031] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:22,375] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:15 1.64925 1.64956
+[2009-06-19 18:15:22,375] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:15 1.64925 1.64956
+[2009-06-19 18:15:22,375] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64925
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:22,375] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:22,375] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:23,906] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:15 1.64941 1.64972
+[2009-06-19 18:15:23,906] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:15 1.64941 1.64972
+[2009-06-19 18:15:23,906] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:23,906] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64925
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:23,906] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:24,203] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:15 1.64930 1.64961
+[2009-06-19 18:15:24,203] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:15 1.64930 1.64961
+[2009-06-19 18:15:24,203] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64925
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:24,203] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64941
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:24,203] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64941
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:24,828] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:15 1.64925 1.64956
+[2009-06-19 18:15:24,828] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:15 1.64925 1.64956
+[2009-06-19 18:15:24,828] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64941
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:24,828] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:24,828] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:28,328] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:15 1.64930 1.64961
+[2009-06-19 18:15:28,328] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:15 1.64930 1.64961
+[2009-06-19 18:15:28,328] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:28,328] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64925
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:28,328] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:28,625] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:15 1.64925 1.64956
+[2009-06-19 18:15:28,625] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:15 1.64925 1.64956
+[2009-06-19 18:15:28,625] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64925
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:28,625] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:28,625] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:30,250] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:15 1.64930 1.64961
+[2009-06-19 18:15:30,250] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:15 1.64930 1.64961
+[2009-06-19 18:15:30,250] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:30,250] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64925
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:30,250] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:30,546] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:15 1.64925 1.64956
+[2009-06-19 18:15:30,546] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:15 1.64925 1.64956
+[2009-06-19 18:15:30,546] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64925
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:30,546] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:30,546] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:31,468] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:15 1.64930 1.64961
+[2009-06-19 18:15:31,468] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:15 1.64930 1.64961
+[2009-06-19 18:15:31,468] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:31,468] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64925
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:31,468] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:32,078] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:15 1.64925 1.64956
+[2009-06-19 18:15:32,078] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:15 1.64925 1.64956
+[2009-06-19 18:15:32,078] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64925
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:32,078] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:32,078] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:32,687] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:15 1.64930 1.64961
+[2009-06-19 18:15:32,687] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:15 1.64930 1.64961
+[2009-06-19 18:15:32,687] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:32,703] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64925
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:32,703] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:33,765] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:15 1.64941 1.64972
+[2009-06-19 18:15:33,765] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:15 1.64941 1.64972
+[2009-06-19 18:15:33,765] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64925
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:33,765] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:33,765] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:34,468] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:15 1.64930 1.64961
+[2009-06-19 18:15:34,468] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:15 1.64930 1.64961
+[2009-06-19 18:15:34,468] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:34,468] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64941
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:34,468] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64941
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6494
+  offer: 1.6497
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:35,984] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:15 1.64925 1.64956
+[2009-06-19 18:15:35,984] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:15 1.64925 1.64956
+[2009-06-19 18:15:35,984] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64941
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:35,984] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:35,984] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:36,703] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:15 1.64930 1.64961
+[2009-06-19 18:15:36,703] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:15 1.64930 1.64961
+[2009-06-19 18:15:36,703] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:36,703] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64925
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:36,703] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:37,312] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:15 1.64925 1.64956
+[2009-06-19 18:15:37,312] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:15 1.64925 1.64956
+[2009-06-19 18:15:37,312] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64925
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:37,312] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:37,312] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:39,906] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:15 1.64930 1.64961
+[2009-06-19 18:15:39,906] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:15 1.64930 1.64961
+[2009-06-19 18:15:39,906] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:39,906] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64925
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:39,906] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:40,203] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:15 1.64925 1.64956
+[2009-06-19 18:15:40,203] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:15 1.64925 1.64956
+[2009-06-19 18:15:40,203] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64925
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:40,203] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:15:40,203] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:16:06,812] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:16 1.64930 1.64961
+[2009-06-19 18:16:06,812] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:16 1.64930 1.64961
+[2009-06-19 18:16:06,812] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:15:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:16:06,812] [INFO] [Thread-0] [com.rickyg.ta.dao.impl.QuoteDAO_JDBC_TEMP] - Using JDBC statement : UPDATE QUOTES_TEMP SET CLOSE = ? WHERE SYMBOL = ? AND DATE_TIME = ?
+[2009-06-19 18:16:06,812] [INFO] [Thread-0] [com.rickyg.ta.dao.impl.QuoteDAO_JDBC_TEMP] - with values : 1.6493 , GBPUSD , 2009-06-19 18:15:00.0
+[2009-06-19 18:16:06,812] [INFO] [Thread-0] [com.rickyg.ta.dao.impl.QuoteDAO_JDBC_TEMP] - JDBC statement successfuly executed!
+[2009-06-19 18:16:06,812] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - Saving quote to DB... 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:16:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:16:06,812] [INFO] [Thread-0] [com.rickyg.ta.dao.impl.QuoteDAO_JDBC_TEMP] - Using JDBC statement : INSERT INTO QUOTES_TEMP(SYMBOL, NAME, DATE_TIME, BID, OFFER, OPEN, LAST, QUOTES_TEMP.CHANGE, HIGH, LOW, CLOSE, PRICE, LWMA, SMA, MAIL_SENT, TRADING_SIGNAL) VALUES ( 'GBPUSD','British Pound vs US Dollar','2009-06-19 18:16:00.0',1.6493,1.6496,1.6493,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,'N','NO SIGNAL')
+[2009-06-19 18:16:06,812] [INFO] [Thread-0] [com.rickyg.ta.dao.impl.QuoteDAO_JDBC_TEMP] - JDBC statement successfuly executed!
+[2009-06-19 18:16:06,812] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - Quote successfully saved
+[2009-06-19 18:16:07,671] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:16 1.64925 1.64956
+[2009-06-19 18:16:07,671] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:16 1.64925 1.64956
+[2009-06-19 18:16:07,671] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:16:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:16:07,687] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:16:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:16:07,687] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:16:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:16:21,953] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:16 1.64920 1.64951
+[2009-06-19 18:16:21,953] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:16 1.64920 1.64951
+[2009-06-19 18:16:21,953] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:16:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:16:21,953] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64925
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:16:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:16:21,953] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:16:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:16:23,562] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:16 1.64925 1.64956
+[2009-06-19 18:16:23,562] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:16 1.64925 1.64956
+[2009-06-19 18:16:23,562] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64925
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:16:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:16:23,578] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6492
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:16:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:16:23,578] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6492
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6495
+  dateTime: Fri Jun 19 18:16:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:16:23,781] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:16 1.64915 1.64946
+[2009-06-19 18:16:23,781] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:16 1.64915 1.64946
+[2009-06-19 18:16:23,781] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6492
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:16:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:16:23,781] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64925
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:16:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:16:23,781] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:16:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:16:28,093] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:16 1.64925 1.64956
+[2009-06-19 18:16:28,093] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:16 1.64925 1.64956
+[2009-06-19 18:16:28,093] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64925
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:16:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:16:28,093] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64915
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:16:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:16:28,093] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64915
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6495
+  dateTime: Fri Jun 19 18:16:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:16:28,703] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:16 1.64930 1.64961
+[2009-06-19 18:16:28,703] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:16 1.64930 1.64961
+[2009-06-19 18:16:28,703] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64915
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:16:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:16:28,703] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64925
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:16:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:16:28,703] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:16:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:16:29,312] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:16 1.64925 1.64956
+[2009-06-19 18:16:29,312] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:16 1.64925 1.64956
+[2009-06-19 18:16:29,312] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64925
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:16:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:16:29,312] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:16:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:16:29,312] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:16:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:16:31,187] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:16 1.64930 1.64961
+[2009-06-19 18:16:31,187] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:16 1.64930 1.64961
+[2009-06-19 18:16:31,187] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:16:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:16:31,187] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64925
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:16:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:16:31,187] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:16:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:16:33,125] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:16 1.64925 1.64956
+[2009-06-19 18:16:33,125] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:16 1.64925 1.64956
+[2009-06-19 18:16:33,125] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64925
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:16:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:16:33,125] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:16:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:16:33,125] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:16:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:16:33,421] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:16 1.64930 1.64961
+[2009-06-19 18:16:33,421] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:16 1.64930 1.64961
+[2009-06-19 18:16:33,421] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:16:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:16:33,421] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64925
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:16:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:16:33,421] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:16:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:16:34,031] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:16 1.64925 1.64956
+[2009-06-19 18:16:34,031] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:16 1.64925 1.64956
+[2009-06-19 18:16:34,031] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64925
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:16:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:16:34,031] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:16:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:16:34,031] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:16:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:16:36,625] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:16 1.64930 1.64961
+[2009-06-19 18:16:36,625] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:16 1.64930 1.64961
+[2009-06-19 18:16:36,625] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:16:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:16:36,625] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64925
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:16:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:16:36,625] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.64925
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6492
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:16:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:16:36,921] [INFO] [Thread-0] [com.rickyg.ta.dde.MyDDEEventListener] - GBPUSD : QUOTE : 2009/06/19 18:16 1.64925 1.64956
+[2009-06-19 18:16:36,921] [INFO] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - PARSING QUOTE ==> GBPUSD : 2009/06/19 18:16 1.64925 1.64956
+[2009-06-19 18:16:36,921] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 START 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.64925
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:16:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:16:36,937] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q1 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 1.6493
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:16:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}
+[2009-06-19 18:16:36,937] [DEBUG] [Thread-0] [com.rickyg.ta.dde.QuoteParsingControllerTask_TEMP] - ============ q2 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  id: 0
+  symbol: GBPUSD
+  name: British Pound vs US Dollar
+  open: 1.6493
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.6493
+  offer: 1.6496
+  dateTime: Fri Jun 19 18:16:00 BST 2009
+  sma8: 0.0
+  lwma5: 0.0
+  mailSentFlag: N
+  tradingSignal: NO SIGNAL
+}

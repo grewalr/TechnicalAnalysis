@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="etc/spring"/>
+	<classpathentry kind="src" path="etc/log4J"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="src" path="etc/hibernate"/>
+	<classpathentry kind="src" path="etc/appProperties"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/lib/apache-log4j/1.2.15/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="D:/lib/javamail/1.4.2/mail.jar"/>
+	<classpathentry kind="lib" path="D:/lib/junit/4.6/junit4.6/junit-4.6.jar"/>
+	<classpathentry kind="lib" path="D:/lib/jaf/1.1.1/activation.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.7-bin.jar"/>
+	<classpathentry kind="lib" path="D:/lib/spring/2.5.5/spring-framework-2.5.5/dist/spring-sources.jar"/>
+	<classpathentry kind="lib" path="D:/lib/spring/2.5.5/spring-framework-2.5.5/dist/spring.jar"/>
+	<classpathentry kind="lib" path="D:/lib/hibernate/3.2/hibernate3.jar"/>
+	<classpathentry kind="lib" path="D:/lib/commons-dbcp/1.2.2/commons-dbcp-1.2.2.jar"/>
+	<classpathentry kind="lib" path="D:/lib/commons-logging/1.0.4/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="D:/lib/commons-configuration/1.4/commons-configuration-1.4.jar"/>
+	<classpathentry kind="lib" path="D:/lib/commons-lang/2.3/commons-lang-2.3.jar"/>
+	<classpathentry kind="lib" path="D:/lib/commons-collections/3.1/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="D:/lib/WebCab_TAJ2SE/QALibrary.jar"/>
+	<classpathentry kind="lib" path="D:/lib/WebCab_TAJ2SE/TAJ2SE.jar"/>
+	<classpathentry kind="lib" path="D:/lib/DDEForJava/dde.jar"/>
+	<classpathentry kind="lib" path="D:/lib/dom4j/1.6.1/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/lib/cglib-nodep/2.1.3/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

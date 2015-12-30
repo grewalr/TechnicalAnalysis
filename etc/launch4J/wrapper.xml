@@ -1,0 +1,47 @@
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>D:\eclipse_workspace\Default\TechnicalAnalysis\dist\ta-20090618.jar</jar>
+  <outfile>D:\eclipse_workspace\Default\TechnicalAnalysis\exe\TA.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir></chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <customProcName>true</customProcName>
+  <stayAlive>false</stayAlive>
+  <manifest></manifest>
+  <icon>D:\eclipse_workspace\Default\TechnicalAnalysis\icon\money.ico</icon>
+  <classPath>
+    <mainClass>com.rickyg.ta.ApplicationStart</mainClass>
+    <cp>D:/lib/apache-log4j/1.2.15/log4j-1.2.15.jar </cp>
+    <cp>D:/lib/javamail/1.4.2/mail.jar </cp>
+    <cp>D:/lib/junit/4.6/junit4.6/junit-4.6.jar </cp>
+    <cp>D:/lib/jaf/1.1.1/activation.jar </cp>
+    <cp>D:/lib/mysql-connector-java/5.1.7/mysql-connector-java-5.1.7-bin.jar </cp>
+    <cp>D:/lib/spring/2.5.5/spring-framework-2.5.5/dist/spring-sources.jar </cp>
+    <cp>D:/lib/spring/2.5.5/spring-framework-2.5.5/dist/spring.jar </cp>
+    <cp>D:/lib/hibernate/3.2/hibernate3.jar </cp>
+    <cp>D:/lib/commons-dbcp/1.2.2/commons-dbcp-1.2.2.jar </cp>
+    <cp>D:/lib/commons-logging/1.0.4/commons-logging-1.0.4.jar </cp>
+    <cp>D:/lib/DDEForJava/dde.jar </cp>
+    <cp>D:/lib/commons-configuration/1.4/commons-configuration-1.4.jar </cp>
+    <cp>D:/lib/commons-lang/2.3/commons-lang-2.3.jar </cp>
+    <cp>D:/lib/commons-collections/3.1/commons-collections-3.1.jar </cp>
+    <cp>D:/lib/WebCab_TAJ2SE/QALibrary.jar </cp>
+    <cp>D:/lib/WebCab_TAJ2SE/TAJ2SE.jar </cp>
+    <cp>D:/eclipse_workspace/Default/TechnicalAnalysis/etc/appProperties </cp>
+    <cp>D:/eclipse_workspace/Default/TechnicalAnalysis/etc/hibernate </cp>
+    <cp>D:/eclipse_workspace/Default/TechnicalAnalysis/etc/launch4J </cp>
+    <cp>D:/eclipse_workspace/Default/TechnicalAnalysis/etc/log4J </cp>
+    <cp>D:/eclipse_workspace/Default/TechnicalAnalysis/etc/spring </cp>
+  </classPath>
+  <jre>
+    <path></path>
+    <minVersion>1.4.0</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <maxHeapSize>1024</maxHeapSize>
+  </jre>
+</launch4jConfig>

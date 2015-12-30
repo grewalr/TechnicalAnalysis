@@ -1,0 +1,584 @@
+[2009-06-14 02:22:51,281] [DEBUG] [main] [com.rickyg.ta.studies.MovingAverageCalculator] - calculateSMA -- quotes[0] : 98.01
+[2009-06-14 02:22:51,359] [DEBUG] [main] [com.rickyg.ta.studies.MovingAverageCalculator] - calculateSMA -- quotes[1] : 97.97
+[2009-06-14 02:22:51,359] [DEBUG] [main] [com.rickyg.ta.studies.MovingAverageCalculator] - calculateSMA -- quotes[2] : 98.02
+[2009-06-14 02:22:51,359] [DEBUG] [main] [com.rickyg.ta.studies.MovingAverageCalculator] - calculateSMA -- quotes[3] : 98.14
+[2009-06-14 02:22:51,359] [DEBUG] [main] [com.rickyg.ta.studies.MovingAverageCalculator] - calculateSMA -- quotes[4] : 98.09
+[2009-06-14 02:33:02,781] [DEBUG] [main] [com.rickyg.ta.studies.MovingAverageCalculator] - calculateLWMA -- quotes[0] : 98.01
+[2009-06-14 02:33:02,781] [DEBUG] [main] [com.rickyg.ta.studies.MovingAverageCalculator] - calculateLWMA -- quotes[1] : 97.97
+[2009-06-14 02:33:02,781] [DEBUG] [main] [com.rickyg.ta.studies.MovingAverageCalculator] - calculateLWMA -- quotes[2] : 98.02
+[2009-06-14 02:33:02,781] [DEBUG] [main] [com.rickyg.ta.studies.MovingAverageCalculator] - calculateLWMA -- quotes[3] : 98.14
+[2009-06-14 02:33:02,781] [DEBUG] [main] [com.rickyg.ta.studies.MovingAverageCalculator] - calculateLWMA -- quotes[4] : 98.09
+[2009-06-14 02:34:32,328] [DEBUG] [main] [com.rickyg.ta.studies.MovingAverageCalculator] - calculateLWMA -- quotes[0] : 98.01
+[2009-06-14 02:34:32,328] [DEBUG] [main] [com.rickyg.ta.studies.MovingAverageCalculator] - calculateLWMA -- quotes[1] : 97.97
+[2009-06-14 02:34:32,328] [DEBUG] [main] [com.rickyg.ta.studies.MovingAverageCalculator] - calculateLWMA -- quotes[2] : 98.02
+[2009-06-14 02:34:32,328] [DEBUG] [main] [com.rickyg.ta.studies.MovingAverageCalculator] - calculateLWMA -- quotes[3] : 98.14
+[2009-06-14 02:34:32,328] [DEBUG] [main] [com.rickyg.ta.studies.MovingAverageCalculator] - calculateLWMA -- quotes[4] : 98.09
+[2009-06-14 02:34:43,625] [DEBUG] [main] [com.rickyg.ta.studies.MovingAverageCalculator] - calculateLWMA -- quotes[0] : 98.01
+[2009-06-14 02:34:43,625] [DEBUG] [main] [com.rickyg.ta.studies.MovingAverageCalculator] - calculateLWMA -- quotes[1] : 97.97
+[2009-06-14 02:34:43,625] [DEBUG] [main] [com.rickyg.ta.studies.MovingAverageCalculator] - calculateLWMA -- quotes[2] : 98.02
+[2009-06-14 02:34:43,625] [DEBUG] [main] [com.rickyg.ta.studies.MovingAverageCalculator] - calculateLWMA -- quotes[3] : 98.14
+[2009-06-14 02:34:43,625] [DEBUG] [main] [com.rickyg.ta.studies.MovingAverageCalculator] - calculateLWMA -- quotes[4] : 98.09
+[2009-06-14 02:36:31,781] [DEBUG] [main] [com.rickyg.ta.studies.MovingAverageCalculator] - calculateLWMA -- quotes[0] : 98.01
+[2009-06-14 02:36:31,781] [DEBUG] [main] [com.rickyg.ta.studies.MovingAverageCalculator] - calculateLWMA -- quotes[1] : 97.97
+[2009-06-14 02:36:31,781] [DEBUG] [main] [com.rickyg.ta.studies.MovingAverageCalculator] - calculateLWMA -- quotes[2] : 98.02
+[2009-06-14 02:36:31,781] [DEBUG] [main] [com.rickyg.ta.studies.MovingAverageCalculator] - calculateLWMA -- quotes[3] : 98.14
+[2009-06-14 02:36:31,781] [DEBUG] [main] [com.rickyg.ta.studies.MovingAverageCalculator] - calculateLWMA -- quotes[4] : 98.09
+[2009-06-14 02:36:31,796] [INFO] [main] [com.rickyg.ta.studies.MovingAverageTest] - 98.068
+[2009-06-14 02:36:55,375] [DEBUG] [main] [com.rickyg.ta.studies.MovingAverageCalculator] - calculateLWMA -- quotes[0] : 98.01
+[2009-06-14 02:36:55,375] [DEBUG] [main] [com.rickyg.ta.studies.MovingAverageCalculator] - calculateLWMA -- quotes[1] : 97.97
+[2009-06-14 02:36:55,375] [DEBUG] [main] [com.rickyg.ta.studies.MovingAverageCalculator] - calculateLWMA -- quotes[2] : 98.02
+[2009-06-14 02:36:55,375] [DEBUG] [main] [com.rickyg.ta.studies.MovingAverageCalculator] - calculateLWMA -- quotes[3] : 98.14
+[2009-06-14 02:36:55,375] [DEBUG] [main] [com.rickyg.ta.studies.MovingAverageCalculator] - calculateLWMA -- quotes[4] : 98.09
+[2009-06-14 02:36:55,406] [INFO] [main] [com.rickyg.ta.studies.MovingAverageTest] - 98.068
+[2009-06-14 02:37:07,453] [DEBUG] [main] [com.rickyg.ta.studies.MovingAverageCalculator] - calculateLWMA -- quotes[0] : 98.01
+[2009-06-14 02:37:07,453] [DEBUG] [main] [com.rickyg.ta.studies.MovingAverageCalculator] - calculateLWMA -- quotes[1] : 97.97
+[2009-06-14 02:37:07,453] [DEBUG] [main] [com.rickyg.ta.studies.MovingAverageCalculator] - calculateLWMA -- quotes[2] : 98.02
+[2009-06-14 02:37:07,453] [DEBUG] [main] [com.rickyg.ta.studies.MovingAverageCalculator] - calculateLWMA -- quotes[3] : 98.14
+[2009-06-14 02:37:07,453] [DEBUG] [main] [com.rickyg.ta.studies.MovingAverageCalculator] - calculateLWMA -- quotes[4] : 98.09
+[2009-06-14 02:37:07,468] [INFO] [main] [com.rickyg.ta.studies.MovingAverageTest] - 98.068
+[2009-06-14 02:37:21,062] [DEBUG] [main] [com.rickyg.ta.studies.MovingAverageCalculator] - calculateLWMA -- quotes[0] : 98.01
+[2009-06-14 02:37:21,062] [DEBUG] [main] [com.rickyg.ta.studies.MovingAverageCalculator] - calculateLWMA -- quotes[1] : 97.97
+[2009-06-14 02:37:21,062] [DEBUG] [main] [com.rickyg.ta.studies.MovingAverageCalculator] - calculateLWMA -- quotes[2] : 98.02
+[2009-06-14 02:37:21,062] [DEBUG] [main] [com.rickyg.ta.studies.MovingAverageCalculator] - calculateLWMA -- quotes[3] : 98.14
+[2009-06-14 02:37:21,062] [DEBUG] [main] [com.rickyg.ta.studies.MovingAverageCalculator] - calculateLWMA -- quotes[4] : 98.09
+[2009-06-14 02:37:21,078] [INFO] [main] [com.rickyg.ta.studies.MovingAverageTest] - 98.068
+[2009-06-14 02:39:33,046] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 02:39:33,046] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 02:39:33,218] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 02:39:37,859] [INFO] [main] [com.rickyg.ta.mail.MailUtility] - Mail sent to - RickyGrewalTradingActivity@gmail.com
+[2009-06-14 02:39:37,859] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 02:39:37,859] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 02:39:37,859] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 02:43:07,187] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 02:43:07,203] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 02:43:07,296] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 02:43:10,343] [INFO] [main] [com.rickyg.ta.mail.MailUtility] - Mail sent to - RickyGrewalTradingActivity@gmail.com
+[2009-06-14 02:43:10,343] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 02:43:10,343] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 02:43:10,359] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 02:48:36,453] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 02:48:36,453] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 02:48:36,546] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 02:48:38,968] [INFO] [main] [com.rickyg.ta.mail.MailUtility] - Mail sent to - rgtradingactivity@googlemail.com
+[2009-06-14 02:48:38,968] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 02:48:38,968] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 02:48:38,968] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 02:49:39,000] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 02:49:39,000] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 02:49:39,109] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 02:49:41,156] [INFO] [main] [com.rickyg.ta.mail.MailUtility] - Mail sent to - RickyGrewal8@gmail.com
+[2009-06-14 02:49:41,156] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 02:49:41,156] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 02:49:41,156] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 14:10:30,984] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 14:10:31,000] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 14:10:31,281] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 14:10:31,968] [ERROR] [main] [com.rickyg.ta.mail.MailUtility] - Error sending mail, cause : Exception reading response
+javax.mail.MessagingException: Exception reading response;
+  nested exception is:
+	javax.net.ssl.SSLException: Unrecognized SSL message, plaintext connection?
+	at com.sun.mail.smtp.SMTPTransport.readServerResponse(SMTPTransport.java:1764)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1523)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:453)
+	at javax.mail.Service.connect(Service.java:313)
+	at javax.mail.Service.connect(Service.java:172)
+	at javax.mail.Service.connect(Service.java:121)
+	at javax.mail.Transport.send0(Transport.java:190)
+	at javax.mail.Transport.send(Transport.java:120)
+	at com.rickyg.ta.mail.MailUtility.send(MailUtility.java:84)
+	at com.rickyg.ta.mail.MailSenderTest.testSendMail(MailSenderTest.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:232)
+	at junit.framework.TestSuite.run(TestSuite.java:227)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:91)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:45)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:673)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:386)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:196)
+Caused by: javax.net.ssl.SSLException: Unrecognized SSL message, plaintext connection?
+	at com.sun.net.ssl.internal.ssl.InputRecord.handleUnknownRecord(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.InputRecord.read(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.readDataRecord(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.AppInputStream.read(Unknown Source)
+	at com.sun.mail.util.TraceInputStream.read(TraceInputStream.java:106)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at com.sun.mail.util.LineInputStream.readLine(LineInputStream.java:84)
+	at com.sun.mail.smtp.SMTPTransport.readServerResponse(SMTPTransport.java:1742)
+	... 28 more
+[2009-06-14 14:10:31,968] [INFO] [main] [com.rickyg.ta.mail.MailUtility] - Mail sent to - RickyGrewal8@gmail.com
+[2009-06-14 14:10:31,968] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 14:10:31,968] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 14:10:31,968] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 14:12:09,296] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 14:12:09,296] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 14:12:09,406] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 14:12:10,906] [ERROR] [main] [com.rickyg.ta.mail.MailUtility] - Error sending mail, cause : Could not connect to SMTP host: localhost, port: 25
+javax.mail.MessagingException: Could not connect to SMTP host: localhost, port: 25;
+  nested exception is:
+	java.net.ConnectException: Connection refused: connect
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1545)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:453)
+	at javax.mail.Service.connect(Service.java:313)
+	at javax.mail.Service.connect(Service.java:172)
+	at javax.mail.Service.connect(Service.java:121)
+	at javax.mail.Transport.send0(Transport.java:190)
+	at javax.mail.Transport.send(Transport.java:120)
+	at com.rickyg.ta.mail.MailUtility.send(MailUtility.java:84)
+	at com.rickyg.ta.mail.MailSenderTest.testSendMail(MailSenderTest.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:232)
+	at junit.framework.TestSuite.run(TestSuite.java:227)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:91)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:45)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:673)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:386)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:196)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.connect(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.BaseSSLSocketImpl.connect(Unknown Source)
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:267)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:201)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1511)
+	... 27 more
+[2009-06-14 14:12:10,906] [INFO] [main] [com.rickyg.ta.mail.MailUtility] - Mail sent to - rgtradingactivity@googlemail.com
+[2009-06-14 14:12:10,906] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 14:12:10,906] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 14:12:10,921] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 14:12:26,828] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 14:12:26,828] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 14:12:26,921] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 14:12:27,328] [ERROR] [main] [com.rickyg.ta.mail.MailUtility] - Error sending mail, cause : Exception reading response
+javax.mail.MessagingException: Exception reading response;
+  nested exception is:
+	javax.net.ssl.SSLException: Unrecognized SSL message, plaintext connection?
+	at com.sun.mail.smtp.SMTPTransport.readServerResponse(SMTPTransport.java:1764)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1523)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:453)
+	at javax.mail.Service.connect(Service.java:313)
+	at javax.mail.Service.connect(Service.java:172)
+	at javax.mail.Service.connect(Service.java:121)
+	at javax.mail.Transport.send0(Transport.java:190)
+	at javax.mail.Transport.send(Transport.java:120)
+	at com.rickyg.ta.mail.MailUtility.send(MailUtility.java:84)
+	at com.rickyg.ta.mail.MailSenderTest.testSendMail(MailSenderTest.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:232)
+	at junit.framework.TestSuite.run(TestSuite.java:227)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:91)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:45)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:673)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:386)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:196)
+Caused by: javax.net.ssl.SSLException: Unrecognized SSL message, plaintext connection?
+	at com.sun.net.ssl.internal.ssl.InputRecord.handleUnknownRecord(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.InputRecord.read(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.readDataRecord(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.AppInputStream.read(Unknown Source)
+	at com.sun.mail.util.TraceInputStream.read(TraceInputStream.java:106)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at com.sun.mail.util.LineInputStream.readLine(LineInputStream.java:84)
+	at com.sun.mail.smtp.SMTPTransport.readServerResponse(SMTPTransport.java:1742)
+	... 28 more
+[2009-06-14 14:12:27,343] [INFO] [main] [com.rickyg.ta.mail.MailUtility] - Mail sent to - rgtradingactivity@googlemail.com
+[2009-06-14 14:12:27,343] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 14:12:27,343] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 14:12:27,343] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 14:14:48,468] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 14:14:48,468] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 14:14:48,578] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 14:14:49,937] [ERROR] [main] [com.rickyg.ta.mail.MailUtility] - Error sending mail, cause : Could not connect to SMTP host: localhost, port: 25
+javax.mail.MessagingException: Could not connect to SMTP host: localhost, port: 25;
+  nested exception is:
+	java.net.ConnectException: Connection refused: connect
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1545)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:453)
+	at javax.mail.Service.connect(Service.java:313)
+	at javax.mail.Service.connect(Service.java:172)
+	at javax.mail.Service.connect(Service.java:121)
+	at javax.mail.Transport.send0(Transport.java:190)
+	at javax.mail.Transport.send(Transport.java:120)
+	at com.rickyg.ta.mail.MailUtility.send(MailUtility.java:84)
+	at com.rickyg.ta.mail.MailSenderTest.testSendMail(MailSenderTest.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:232)
+	at junit.framework.TestSuite.run(TestSuite.java:227)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:91)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:45)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:673)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:386)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:196)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.connect(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.BaseSSLSocketImpl.connect(Unknown Source)
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:267)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:201)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1511)
+	... 27 more
+[2009-06-14 14:14:49,937] [INFO] [main] [com.rickyg.ta.mail.MailUtility] - Mail sent to - rgtradingactivity@googlemail.com
+[2009-06-14 14:14:49,937] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 14:14:49,937] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 14:14:49,937] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 14:15:06,750] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 14:15:06,750] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 14:15:06,859] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 14:15:07,250] [ERROR] [main] [com.rickyg.ta.mail.MailUtility] - Error sending mail, cause : Exception reading response
+javax.mail.MessagingException: Exception reading response;
+  nested exception is:
+	javax.net.ssl.SSLException: Unrecognized SSL message, plaintext connection?
+	at com.sun.mail.smtp.SMTPTransport.readServerResponse(SMTPTransport.java:1764)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1523)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:453)
+	at javax.mail.Service.connect(Service.java:313)
+	at javax.mail.Service.connect(Service.java:172)
+	at javax.mail.Service.connect(Service.java:121)
+	at javax.mail.Transport.send0(Transport.java:190)
+	at javax.mail.Transport.send(Transport.java:120)
+	at com.rickyg.ta.mail.MailUtility.send(MailUtility.java:84)
+	at com.rickyg.ta.mail.MailSenderTest.testSendMail(MailSenderTest.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:232)
+	at junit.framework.TestSuite.run(TestSuite.java:227)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:91)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:45)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:673)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:386)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:196)
+Caused by: javax.net.ssl.SSLException: Unrecognized SSL message, plaintext connection?
+	at com.sun.net.ssl.internal.ssl.InputRecord.handleUnknownRecord(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.InputRecord.read(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.readDataRecord(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.AppInputStream.read(Unknown Source)
+	at com.sun.mail.util.TraceInputStream.read(TraceInputStream.java:106)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at com.sun.mail.util.LineInputStream.readLine(LineInputStream.java:84)
+	at com.sun.mail.smtp.SMTPTransport.readServerResponse(SMTPTransport.java:1742)
+	... 28 more
+[2009-06-14 14:15:07,265] [INFO] [main] [com.rickyg.ta.mail.MailUtility] - Mail sent to - rgtradingactivity@googlemail.com
+[2009-06-14 14:15:07,265] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 14:15:07,265] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 14:15:07,265] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 14:17:19,640] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 14:17:19,640] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 14:17:19,734] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 14:17:19,859] [ERROR] [main] [com.rickyg.ta.mail.MailUtility] - Error sending mail, cause : failed to connect
+javax.mail.AuthenticationFailedException: failed to connect
+	at javax.mail.Service.connect(Service.java:322)
+	at javax.mail.Service.connect(Service.java:172)
+	at javax.mail.Service.connect(Service.java:121)
+	at javax.mail.Transport.send0(Transport.java:190)
+	at javax.mail.Transport.send(Transport.java:120)
+	at com.rickyg.ta.mail.MailUtility.send(MailUtility.java:85)
+	at com.rickyg.ta.mail.MailSenderTest.testSendMail(MailSenderTest.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:232)
+	at junit.framework.TestSuite.run(TestSuite.java:227)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:91)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:45)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:673)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:386)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:196)
+[2009-06-14 14:17:19,859] [INFO] [main] [com.rickyg.ta.mail.MailUtility] - Mail sent to - rgtradingactivity@googlemail.com
+[2009-06-14 14:17:19,875] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 14:17:19,875] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 14:17:19,875] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 14:45:59,093] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 14:45:59,093] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 14:45:59,187] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 14:45:59,328] [ERROR] [main] [com.rickyg.ta.mail.MailUtility] - Error sending mail, cause : failed to connect
+javax.mail.AuthenticationFailedException: failed to connect
+	at javax.mail.Service.connect(Service.java:322)
+	at javax.mail.Service.connect(Service.java:172)
+	at javax.mail.Service.connect(Service.java:121)
+	at javax.mail.Transport.send0(Transport.java:190)
+	at javax.mail.Transport.send(Transport.java:120)
+	at com.rickyg.ta.mail.MailUtility.send(MailUtility.java:85)
+	at com.rickyg.ta.mail.MailSenderTest.testSendMail(MailSenderTest.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:232)
+	at junit.framework.TestSuite.run(TestSuite.java:227)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:91)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:45)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:673)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:386)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:196)
+[2009-06-14 14:45:59,328] [INFO] [main] [com.rickyg.ta.mail.MailUtility] - Mail sent to - RickyGrewal8@gmail.com
+[2009-06-14 14:45:59,328] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 14:45:59,328] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 14:45:59,328] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 14:46:18,734] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 14:46:18,734] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 14:46:18,843] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 14:46:20,671] [INFO] [main] [com.rickyg.ta.mail.MailUtility] - Mail sent to - RickyGrewal8@gmail.com
+[2009-06-14 14:46:20,671] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 14:46:20,671] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 14:46:20,671] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 14:47:11,687] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 14:47:11,687] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 14:47:11,796] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 14:47:15,875] [INFO] [main] [com.rickyg.ta.mail.MailUtility] - Mail sent to - rgtradingactivity@googlemail.com
+[2009-06-14 14:47:15,875] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 14:47:15,875] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 14:47:15,875] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 14:47:28,281] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 14:47:28,281] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 14:47:28,390] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 14:47:31,031] [INFO] [main] [com.rickyg.ta.mail.MailUtility] - Mail sent to - rgtradingactivity@googlemail.com
+[2009-06-14 14:47:31,031] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 14:47:31,031] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 14:47:31,046] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 15:18:45,734] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 15:18:45,734] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 15:18:45,843] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 15:18:48,875] [INFO] [main] [com.rickyg.ta.mail.MailUtility] - Mail sent to - rgtradingactivity@googlemail.com
+[2009-06-14 15:18:48,875] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 15:18:48,875] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 15:18:48,890] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 15:53:46,578] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 15:53:46,578] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 15:53:46,687] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 15:53:48,859] [INFO] [main] [com.rickyg.ta.mail.MailUtility] - Mail sent to - RickyGrewalTradingActivity@gmail.com
+[2009-06-14 15:53:48,859] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 15:53:48,859] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 15:53:48,859] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 16:16:17,953] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 16:16:17,953] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 16:16:18,062] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 16:16:20,093] [INFO] [main] [com.rickyg.ta.mail.MailUtility] - Mail sent to - RickyGrewalTradingActivity@gmail.com
+[2009-06-14 16:16:20,093] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 16:16:20,093] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 16:16:20,093] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 16:17:44,765] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 16:17:44,765] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 16:17:44,859] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 16:17:46,437] [INFO] [main] [com.rickyg.ta.mail.MailUtility] - Mail sent to - RickyGrewal8@gmail.com
+[2009-06-14 16:17:46,437] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 16:17:46,437] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 16:17:46,437] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 16:34:22,687] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 16:34:22,687] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 16:34:22,796] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 16:34:24,953] [INFO] [main] [com.rickyg.ta.mail.MailUtility] - Mail sent to - RickyGrewalTradingActivity@gmail.com
+[2009-06-14 16:34:24,953] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 16:34:24,953] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 16:34:24,953] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 16:39:05,156] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 16:39:05,156] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 16:39:05,250] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 16:39:07,312] [INFO] [main] [com.rickyg.ta.mail.MailUtility] - Mail sent to - RickyGrewalTradingActivity@gmail.com
+[2009-06-14 16:42:19,234] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 16:42:19,234] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 16:42:19,328] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 16:42:21,296] [INFO] [main] [com.rickyg.ta.mail.MailUtility] - Mail sent to - RickyGrewalTradingActivity@gmail.com
+[2009-06-14 16:42:21,296] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 16:42:21,296] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 16:42:21,296] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 16:57:33,265] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 16:57:33,265] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 16:57:33,375] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 16:57:37,312] [INFO] [main] [com.rickyg.ta.mail.MailUtility] - Mail sent to - RickyGrewalTradingActivity@gmail.com
+[2009-06-14 16:57:37,312] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 16:57:37,312] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 16:57:37,312] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 17:19:45,250] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 17:19:45,265] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 17:19:45,359] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 17:19:47,890] [INFO] [main] [com.rickyg.ta.mail.MailUtility] - Mail sent to - RickyGrewalTradingActivity@gmail.com
+[2009-06-14 17:19:47,890] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 17:19:47,890] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 17:19:47,906] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 17:20:16,859] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 17:20:16,859] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 17:20:16,968] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 17:20:18,812] [INFO] [main] [com.rickyg.ta.mail.MailUtility] - Mail sent to - RickyGrewal8@gmail.com
+[2009-06-14 17:20:18,812] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 17:20:18,812] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 17:20:18,828] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 17:50:31,062] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 17:50:31,062] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 17:50:31,156] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 17:50:33,078] [INFO] [main] [com.rickyg.ta.mail.MailUtility] - Mail sent to - RickyGrewal8@gmail.com
+[2009-06-14 17:50:33,078] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 17:50:33,078] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 17:50:33,078] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 17:56:40,984] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 17:56:40,984] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 17:56:41,078] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 17:56:42,781] [INFO] [main] [com.rickyg.ta.mail.MailUtility] - Mail sent to - RickyGrewal8@gmail.com
+[2009-06-14 17:56:42,781] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 17:56:42,781] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 17:56:42,781] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 18:22:34,562] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 18:22:34,562] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 18:22:34,671] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 18:22:36,609] [INFO] [main] [com.rickyg.ta.mail.MailUtility] - Mail sent to - RickyGrewal8@gmail.com
+[2009-06-14 18:22:36,609] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 18:22:36,609] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 18:22:36,609] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 18:25:17,234] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 18:25:17,234] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 18:25:17,343] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 18:25:18,968] [INFO] [main] [com.rickyg.ta.mail.MailUtility] - Mail sent to - RickyGrewal8@gmail.com
+[2009-06-14 18:25:18,968] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 18:25:18,968] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 18:25:18,984] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 18:37:42,796] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 18:37:42,796] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 18:37:42,906] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 18:37:45,187] [INFO] [main] [com.rickyg.ta.mail.MailUtility] - Mail sent to - RickyGrewalTradingActivity@gmail.com
+[2009-06-14 18:37:45,187] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 18:37:45,187] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 18:37:45,203] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 19:21:23,375] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 19:21:23,375] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 19:21:23,484] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 19:21:25,265] [INFO] [main] [com.rickyg.ta.mail.MailUtility] - Mail sent to - RickyGrewalTradingActivity@gmail.com
+[2009-06-14 19:21:25,281] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 19:21:25,281] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 19:21:25,281] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 19:24:31,453] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 19:24:31,453] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 19:24:31,562] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 19:24:33,578] [INFO] [main] [com.rickyg.ta.mail.MailUtility] - Mail sent to - RickyGrewalTradingActivity@gmail.com
+[2009-06-14 19:24:33,578] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 19:24:33,578] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 19:24:33,578] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 19:26:01,515] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 19:26:01,515] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 19:26:01,625] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 19:26:03,484] [INFO] [main] [com.rickyg.ta.mail.MailUtility] - Mail sent to - RickyGrewalTradingActivity@gmail.com
+[2009-06-14 19:26:03,484] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 19:26:03,484] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 19:26:03,484] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 19:27:21,343] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 19:27:21,343] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 19:27:21,437] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 19:27:23,625] [INFO] [main] [com.rickyg.ta.mail.MailUtility] - Mail sent to - RickyGrewalTradingActivity@gmail.com
+[2009-06-14 19:27:23,625] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 19:27:23,625] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 19:27:23,625] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 19:29:02,984] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 19:29:03,000] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 19:29:03,093] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 19:29:06,546] [INFO] [main] [com.rickyg.ta.mail.MailUtility] - Mail sent to - RickyGrewalTradingActivity@gmail.com
+[2009-06-14 19:29:06,546] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 19:29:06,546] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 19:29:06,562] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 19:29:49,968] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 19:29:49,968] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 19:29:50,062] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 19:29:51,859] [INFO] [main] [com.rickyg.ta.mail.MailUtility] - Mail sent to - RickyGrewalTradingActivity@gmail.com
+[2009-06-14 19:29:51,859] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 19:29:51,859] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 19:29:51,875] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 19:30:36,796] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 19:30:36,796] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 19:30:36,906] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 19:30:38,765] [INFO] [main] [com.rickyg.ta.mail.MailUtility] - Mail sent to - RickyGrewalTradingActivity@gmail.com
+[2009-06-14 19:30:38,765] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 19:30:38,765] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 19:30:38,781] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 19:34:11,062] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 19:34:11,062] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 19:34:11,171] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED
+[2009-06-14 19:34:13,578] [INFO] [main] [com.rickyg.ta.mail.MailUtility] - Mail sent to - RickyGrewalTradingActivity@gmail.com
+[2009-06-14 19:34:13,578] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 19:34:13,578] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-14 19:34:13,578] [INFO] [main] [com.rickyg.ta.mail.MailSenderTest] - PROPS LOADED

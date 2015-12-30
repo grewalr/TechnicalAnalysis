@@ -1,0 +1,78 @@
+[2009-06-06 12:48:46,531] [INFO] [MAIN THREAD] [com.rickyg.ta.dde.MyDDEEventListener] - USDJPY : QUOTE : 2009/06/05 20:59 98.829 98.868
+[2009-06-06 12:48:46,609] [INFO] [EXECUTOR THREAD 0] [com.rickyg.ta.dde.QuoteParsingTask] - Saving quote to DB 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  symbol: USDJPY
+  name: US Dollar vs Japanese Yen
+  open: 0.0
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 98.83
+  offer: 98.87
+  dateTime: Fri Jun 05 20:59:00 BST 2009
+  time: null
+}
+[2009-06-06 12:48:46,640] [INFO] [MAIN THREAD] [com.rickyg.ta.dde.MyDDEEventListener] - USDCHF : QUOTE : 2009/06/05 20:59 1.08603 1.08649
+[2009-06-06 12:48:46,640] [INFO] [EXECUTOR THREAD 1] [com.rickyg.ta.dde.QuoteParsingTask] - Saving quote to DB 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  symbol: USDCHF
+  name: US Dollar vs Swiss Francs
+  open: 0.0
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.086
+  offer: 1.0865
+  dateTime: Fri Jun 05 20:59:00 BST 2009
+  time: null
+}
+[2009-06-06 12:48:47,187] [INFO] [EXECUTOR THREAD 0] [com.rickyg.ta.dao.impl.QuoteDAO_JDBC] - Using JDBC statement : INSERT INTO QUOTES(SYMBOL, NAME, DATE_TIME, BID, OFFER, OPEN, LAST, QUOTES.CHANGE, HIGH, LOW, CLOSE, PRICE) VALUES ( 'USDJPY','US Dollar vs Japanese Yen','2009-06-05 20:59:00.0',98.83,98.87,0.0,0.0,0.0,0.0,0.0,0.0,0.0)
+[2009-06-06 12:48:47,203] [INFO] [EXECUTOR THREAD 1] [com.rickyg.ta.dao.impl.QuoteDAO_JDBC] - Using JDBC statement : INSERT INTO QUOTES(SYMBOL, NAME, DATE_TIME, BID, OFFER, OPEN, LAST, QUOTES.CHANGE, HIGH, LOW, CLOSE, PRICE) VALUES ( 'USDCHF','US Dollar vs Swiss Francs','2009-06-05 20:59:00.0',1.086,1.0865,0.0,0.0,0.0,0.0,0.0,0.0,0.0)
+[2009-06-06 12:48:47,281] [INFO] [EXECUTOR THREAD 1] [com.rickyg.ta.dao.impl.QuoteDAO_JDBC] - JDBC statement successfuly executed!
+[2009-06-06 12:48:47,281] [INFO] [EXECUTOR THREAD 0] [com.rickyg.ta.dao.impl.QuoteDAO_JDBC] - JDBC statement successfuly executed!
+[2009-06-06 12:48:47,281] [INFO] [EXECUTOR THREAD 1] [com.rickyg.ta.dde.QuoteParsingTask] - Quote 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  symbol: USDCHF
+  name: US Dollar vs Swiss Francs
+  open: 0.0
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 1.086
+  offer: 1.0865
+  dateTime: Fri Jun 05 20:59:00 BST 2009
+  time: null
+} successfully saved
+[2009-06-06 12:48:47,281] [INFO] [EXECUTOR THREAD 0] [com.rickyg.ta.dde.QuoteParsingTask] - Quote 
+com.rickyg.ta.domain.Quote
+Object 
+(
+  symbol: USDJPY
+  name: US Dollar vs Japanese Yen
+  open: 0.0
+  last: 0.0
+  change: 0.0
+  high: 0.0
+  low: 0.0
+  close: 0.0
+  price: 0.0
+  bid: 98.83
+  offer: 98.87
+  dateTime: Fri Jun 05 20:59:00 BST 2009
+  time: null
+} successfully saved

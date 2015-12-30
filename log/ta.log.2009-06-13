@@ -1,0 +1,18 @@
+[2009-06-13 21:11:41,656] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-13 21:11:41,750] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-13 21:11:41,765] [INFO] [main] [com.rickyg.ta.dao.impl.QuoteDAO_JDBC] - PROPS LOADED
+[2009-06-13 21:11:42,359] [INFO] [main] [com.rickyg.ta.dao.impl.QuoteDAO_JDBC] - Using JDBC statement : UPDATE QUOTES SET CLOSE = ? WHERE SYMBOL = ? AND DATE_TIME = ?
+[2009-06-13 21:11:42,359] [INFO] [main] [com.rickyg.ta.dao.impl.QuoteDAO_JDBC] - with values : 98.197 , USDJPY , 2009-06-12 15:32:00.0
+[2009-06-13 21:11:42,421] [INFO] [main] [com.rickyg.ta.dao.impl.QuoteDAO_JDBC] - JDBC statement successfuly executed!
+[2009-06-13 21:12:57,828] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-13 21:12:57,843] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-13 21:12:57,859] [INFO] [main] [com.rickyg.ta.dao.impl.QuoteDAO_JDBC] - PROPS LOADED
+[2009-06-13 21:12:58,140] [INFO] [main] [com.rickyg.ta.dao.impl.QuoteDAO_JDBC] - Using JDBC statement : UPDATE QUOTES SET CLOSE = ? WHERE SYMBOL = ? AND DATE_TIME = ?
+[2009-06-13 21:12:58,140] [INFO] [main] [com.rickyg.ta.dao.impl.QuoteDAO_JDBC] - with values : 98.197 , USDJPY , 2009-06-12 20:59:00.0
+[2009-06-13 21:12:58,156] [INFO] [main] [com.rickyg.ta.dao.impl.QuoteDAO_JDBC] - JDBC statement successfuly executed!
+[2009-06-13 21:13:23,421] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - ConfigurationUtils.locate(): base is null, name is D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-13 21:13:23,421] [DEBUG] [main] [org.apache.commons.configuration.ConfigurationUtils] - Loading configuration from the absolute path D:/eclipse_workspace/Default/TechnicalAnalysis/etc/application.properties
+[2009-06-13 21:13:23,453] [INFO] [main] [com.rickyg.ta.dao.impl.QuoteDAO_JDBC] - PROPS LOADED
+[2009-06-13 21:13:23,718] [INFO] [main] [com.rickyg.ta.dao.impl.QuoteDAO_JDBC] - Using JDBC statement : UPDATE QUOTES SET CLOSE = ? WHERE SYMBOL = ? AND DATE_TIME = ?
+[2009-06-13 21:13:23,718] [INFO] [main] [com.rickyg.ta.dao.impl.QuoteDAO_JDBC] - with values : 0.0 , USDJPY , 2009-06-12 20:59:00.0
+[2009-06-13 21:13:23,796] [INFO] [main] [com.rickyg.ta.dao.impl.QuoteDAO_JDBC] - JDBC statement successfuly executed!
